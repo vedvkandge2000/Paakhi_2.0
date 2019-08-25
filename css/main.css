@@ -71,10 +71,10 @@ body {
   margin: 0;
   padding: 0;
 }
-#home {
+/*#home {
 
   background-color: rgb(255,182,228) !important;
-}
+}*/
 /* -------------------------------------------------------------------
  * links - (_document-setup)
  * ------------------------------------------------------------------- */
@@ -1305,7 +1305,7 @@ header .header-logo a {
   background-attachment: fixed;
   min-height: 804px;
   position: relative;
-  padding-bottom:0.0px;
+  padding-bottom:0px;
 }
 #home .overlay {
   position: absolute;
@@ -1474,12 +1474,15 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   .home-content-tablecell h1 {
     font-size: 6rem;
   }
+
+
+
 }
 @media only screen and (max-width: 768px) {
-  #home {
+  /*#home {
 
     background-color: rgb(255,182,228);
-  }
+  }*/
   .home-content-tablecell .row {
     max-width: 600px;
   }
@@ -1511,17 +1514,27 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 @media only screen and (max-width: 600px) {
   #home {
     min-height: 702px;
-    background-color: rgb(255,182,228);
+    /*background-color: rgb(255,182,228);*/
+    padding-top:60px;
   }
-  #intro1{
-    text-decoration: underline;
+  #intro1 {
     width: 40%;
-    height: 5%;
-    padding-top: 0px;
+    height: 10%;
+    padding-left:23px;
     padding-bottom: 0px;
     border: hidden;
-
   }
+
+  .button,
+  a.button,
+  button,
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+    font-size: 1.5rem;
+    height: 5.4rem;
+  }
+
   .home-content-tablecell .row {
     max-width: 480px;
     padding-top: 12rem;
@@ -1553,11 +1566,56 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   .home-social-list::before {
     height: 24px;
   }
+
+  #intro1{
+
+    width: 45%;
+    height: 5%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: hidden;
+}
+
+.button,
+a.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  font-size: 1.4rem !important;
+  height: 5.4rem !important;
+}
+
+
 }
 @media only screen and (max-width: 400px) {
   #home {
     min-height: 654px;
+    padding-bottom:20px !important;
   }
+
+  .button,
+  a.button,
+  button,
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+    font-size: 1.3rem;
+    height: 0.8rem !important;
+    /*margin: 0rem 1.2rem 1.6rem 10px !important;*/
+    padding-bottom: 40px !important;
+    padding-left: 15px !important;
+  }
+
+
+  #intro1{
+
+    width: 40%;
+    height: 5%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: hidden!important;
+}
 
 
   .home-content-tablecell h3 {
