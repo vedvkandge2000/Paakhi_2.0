@@ -1630,9 +1630,10 @@ input[type="button"] {
 }
 @media only screen and (max-width: 400px) {
   #home {
+    max-width: 100% !important;
     min-height: 702px;
     padding-top:60px;
-    padding-left:10px !important;
+    margin-right:100px !important;
     background-image: url(../images/Paakhi.jpg);
     background-position: center center;
     background-size:cover !important;
