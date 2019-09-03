@@ -727,6 +727,7 @@ input[type="button"] {
   height: 5.4rem;
   line-height: 5.4rem;
   padding: 0 3rem;
+  padding-top: 0px;
   margin: 0 .3rem 1.2rem 0;
   background: #A5A5A5;
   color: #222222;
@@ -1295,7 +1296,7 @@ header .header-logo a {
   width:100%;
   height: 100%;
   background-color: #151515;
-  background-image: url(../images/paakhi1.svg);
+  background-image: url(../images/paakhi1.jpg);
   background-repeat: no-repeat;
   background-position: center 30%;
   -webkit-background-size: cover;
@@ -1306,6 +1307,7 @@ header .header-logo a {
   min-height: 804px;
   position: relative;
   padding-bottom:0px;
+  padding-top: 100px;
 }
 #home .overlay {
   position: absolute;
@@ -1546,6 +1548,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   #home {
     min-height: 702px;
     padding-top:60px;
+    padding-right: 60px !important;
     background-image: url(../images/Paakhi.jpg);
     background-position: center center;
     background-size:cover !important;
@@ -1629,6 +1632,7 @@ input[type="button"] {
   #home {
     min-height: 702px;
     padding-top:60px;
+    padding-left:10px !important;
     background-image: url(../images/Paakhi.jpg);
     background-position: center center;
     background-size:cover !important;
@@ -1725,7 +1729,7 @@ input[type="button"] {
   #about .lead {
     font-size: 3.8rem;
   }
-  
+
 }
 @media only screen and (max-width: 900px) {
   #about .about-wrap {
