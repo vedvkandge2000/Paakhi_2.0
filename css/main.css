@@ -1307,7 +1307,7 @@ header .header-logo a {
   min-height: 804px;
   position: relative;
   padding-bottom:0px;
-  padding-top: 100px;
+  padding-top: 120px;
 }
 #home .overlay {
   position: absolute;
@@ -1424,7 +1424,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
-  color: #FFFFFF !important;
+  color: #000000 !important;
   background: transparent;
   position: relative;
   top: 36px;
